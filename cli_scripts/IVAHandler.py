@@ -36,7 +36,7 @@ class PriceTaxHelper:
         Returns:
             float: A price with the TAX added.
         """
-        return price_without_tax * self._IVA_RATE + price_without_tax
+        return price_without_tax * self._TAX_RATE + price_without_tax
 
     @property
     def tax_rate(self) -> float:
