@@ -57,8 +57,8 @@ class PriceTaxHelper:
         Raises:
             TypeError: The entering value must be a decimal (float).
         """
-        isFloat = isinstance(new_tax_rate, float)
         try:
+            isFloat = isinstance(new_tax_rate, float)
             if not isFloat:
                 raise TypeError("TAX rate must be provided in decimals")
             self._TAX_RATE = new_tax_rate
