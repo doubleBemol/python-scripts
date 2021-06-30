@@ -1,7 +1,12 @@
 class IVAHandler:
     """Simple class that can add or substract iva to prices.
     
-    How to use: Import it to your script by using from IVAHandler import * (assuming the file is in the same directory), then just instantiate an object
+    How to use: Import it to your script by using 
+    
+    from IVAHandler import * (assuming the file is in the same directory),
+    
+    then just instantiate an object
+    
     iva = IVAHandler() and use iva to performe your calculations.
     
     example:
